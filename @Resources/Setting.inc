@@ -7,7 +7,7 @@ ValueColor=255,255,255
 FrameColor=255,0,0,255
 BarBackColor=#LabelColor#,75
 BackgroundAlpha=200
-BackgroundColor=255,0,0,#BackgroundAlpha#
+BackgroundColor=0,0,0,#BackgroundAlpha#
 G1=177, 255, 145,255
 G2=200, 195, 47,255
 G3=214, 125, 0,255
@@ -32,7 +32,6 @@ Memories=MB
 Powers=W
 
 ;Dimension
-BackgroundH=220
 BackgroundW=250
 BarW=(#BackgroundW#-33)
 ValueX=(#BackgroundW#-15)
