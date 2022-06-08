@@ -17,7 +17,7 @@ Warn=255,0,0,255
 
 ;Icon
 Load=[\xf013]
-Clock=[\xf9c4]
+Clock=[\xf651]
 Temp=[\xf2c7]
 Memory=[\xf85a]
 Fan=[\xf70f]
