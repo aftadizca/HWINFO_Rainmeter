@@ -16,9 +16,9 @@ Accent=118,211,0,255
 Warn=255,0,0,255
 
 ;Icon
-Load=[\xf085]
+Load=[\xf013]
 Clock=[\xf9c4]
-Temp=[\xfa0e]
+Temp=[\xf2c7]
 Memory=[\xf85a]
 Fan=[\xf70f]
 Power=[\xe315]
@@ -41,10 +41,28 @@ Shape2H=2
 Shape2R=2
 
 [BarStyle]
-X=17
+X=40
 Y=2R
-;W=#BarW#
 H=2
-BarImage=#@#\Images\217x2Bar.png
+BarImage=#@#\Images\194x2Bar.png
 SolidColor=150,150,150,100
 BarOrientation=Horizontal
+
+
+[MeterLabelStyle]
+FontFace=#TextFont#
+FontColor=#ValueColor#
+FontSize=10
+FontWeight=400
+AntiAlias=1
+NumOfDecimals=0
+X=40
+Y=3r
+
+[MeterIconStyle]
+FontFace=#TextFont#
+FontColor=#Accent#
+FontSize=14
+AntiAlias=1
+X=15
+Y=10R
