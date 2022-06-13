@@ -1,6 +1,30 @@
 [Variables]
 TextFont=VictorMono NF
 
+;CPU
+CPUMemoryMB=0
+CPUCoreClockSpeedMHz=1
+CPUCoreLoad=2
+CPUTempDegrees=3
+CPUPowerW=4
+
+;Fan
+FanCPU=6
+FanWP=7
+FanChassis1=5
+FanChassis2=8
+FanChassis3=9
+
+;GPU
+GPUTempDegreesEdge=10
+GPUTempDegreesCenter=11
+GPUFanSpeedRPM=12
+GPUPowerW=13
+GPUCoreClockSpeedMHz=14
+GPUMemoryClock=15
+GPUCoreLoad=16
+GPUMemoryMB=17
+
 ;Colors
 LabelColor=250,250,250
 ValueColor=255,255,255
