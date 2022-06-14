@@ -2,32 +2,30 @@
 TextFont=VictorMono NF
 
 ;CPU
+CPUInst=0x0
 CPUMemoryID=0xf0000301
-CPUMemoryIns=0x0
 CPUMemoryEntry=0x8000003
 
 CPUClockID=0xf0000300
-CPUClockInst=0x0
 CPUClockEntry=0x600001c
 
 CPULoadID=0xf0000300
-CPULoadInst=0x0
 CPULoadEntry=0x700001b
 
 CPUTempID=0xf0000501
-CPUTempInst=0x0
 CPUTempEntry=0x1000000
 
 CPUPowerID=0xf0000501
-CPUPowerInst=0x0
 CPUPowerEntry=0x5000000
 
 ;Fan
-FanCPU=6
-FanWP=7
-FanChassis1=5
-FanChassis2=8
-FanChassis3=9
+FanID=0xf7067790
+FanIns=0x0
+FanCPU=0x3000001
+FanWP=0x3000002
+FanChassis1=0x3000000
+FanChassis2=0x3000003
+FanChassis3=0x3000004
 
 ;GPU
 GPUID=0xe0001800
