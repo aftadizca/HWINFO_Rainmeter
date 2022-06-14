@@ -30,14 +30,16 @@ FanChassis2=8
 FanChassis3=9
 
 ;GPU
-GPUTempDegreesEdge=10
-GPUTempDegreesCenter=11
-GPUFanSpeedRPM=12
-GPUPowerW=13
-GPUCoreClockSpeedMHz=14
-GPUMemoryClock=15
-GPUCoreLoad=16
-GPUMemoryMB=17
+GPUID=0xe0001800
+GPUIns=0x0
+GPUTempEdge=0x1000000
+GPUTempCenter=0x100000a
+GPUFan=0x3000000
+GPUPower=0x5000009
+GPUCoreClock=0x6000000
+GPUMemoryClock=0x6000004
+GPULoad=0x7000000
+GPUMemory=0x8000001
 
 ;Colors
 LabelColor=250,250,250
