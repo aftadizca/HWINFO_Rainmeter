@@ -2,11 +2,25 @@
 TextFont=VictorMono NF
 
 ;CPU
-CPUMemoryMB=0
-CPUCoreClockSpeedMHz=1
-CPUCoreLoad=2
-CPUTempDegrees=3
-CPUPowerW=4
+CPUMemoryID=0xf0000301
+CPUMemoryIns=0x0
+CPUMemoryEntry=0x8000003
+
+CPUClockID=0xf0000300
+CPUClockInst=0x0
+CPUClockEntry=0x600001c
+
+CPULoadID=0xf0000300
+CPULoadInst=0x0
+CPULoadEntry=0x700001b
+
+CPUTempID=0xf0000501
+CPUTempInst=0x0
+CPUTempEntry=0x1000000
+
+CPUPowerID=0xf0000501
+CPUPowerInst=0x0
+CPUPowerEntry=0x5000000
 
 ;Fan
 FanCPU=6
