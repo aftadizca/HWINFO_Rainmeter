@@ -1,5 +1,5 @@
 [Variables]
-TextFont=VictorMono NF
+TextFont=mononoki NF
 
 ;CPU
 CPUInst=0x0
@@ -61,6 +61,8 @@ Temp=[\xf2c7]
 Memory=[\xf85a]
 Fan=[\xf70f]
 Power=[\xe315]
+NetworkIn=[\xfbbe]
+NetworkOut=[\xfbc1]
 
 ;Unit Symbol Variables
 Temperatures=C
@@ -69,14 +71,14 @@ Percents=%
 ClockSpeeds=MHz
 Memories=MB
 Powers=W
+Network=KB/s
+Data=MB
 
 ;Dimension
 BackgroundW=250
 BarW=(#BackgroundW#-33)
 ValueX=(#BackgroundW#-15)
-Shape1H=1
-Shape2H=2
-Shape2R=2
+RoundedCorner=0
 
 [BarStyle]
 X=40
