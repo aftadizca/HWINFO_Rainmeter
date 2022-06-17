@@ -4,7 +4,7 @@ TextFont=mononoki NF
 ;CPU
 CPUInst=0x0
 CPUMemoryID=0xf0000301
-CPUMemoryEntry=0x8000005
+CPUMemoryEntry=0x8000003
 
 CPUClockID=0xf0000300
 CPUClockEntry=0x600001c
