@@ -71,8 +71,8 @@ Percents=%
 ClockSpeeds=MHz
 Memories=MB
 Powers=W
-Network=KB/s
-Data=MB
+Network=MB/s
+Data=GB
 
 ;Dimension
 BackgroundW=250
