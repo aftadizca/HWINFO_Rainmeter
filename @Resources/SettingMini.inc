@@ -102,7 +102,7 @@ Y=3r
 [MeterValueTextStyle]
 FontFace=#TextFont#
 FontColor=#ValueColor#
-FontSize=8
+FontSize=7
 AntiAlias=1
 NumOfDecimals=0
 
