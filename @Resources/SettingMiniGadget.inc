@@ -1,45 +1,22 @@
 [Variables]
-TextFont=Lekton Nerd Font
+TextFont=FantasqueSansM Nerd Font
 
 
 ;CPU
-CPUInst=0x0
-CPUMemoryID=0xf0000301
-CPUMemoryEntry=0x8000003
-
-CPUClockID=0xf0000300
-CPUClockEntry=0x600001c
-
-CPULoadID=0xf0000300
-CPULoadEntry=0x700000d
-
-CPUTempID=0xf0000501
-CPUTempEntry=0x1000000
-
-CPUPowerID=0xf0000501
-CPUPowerEntry=0x5000000
-
-;Fan
-FanID=0xf7067790
-FanIns=0x0
-FanCPU=0x3000001
-FanWP=0x3000002
-FanChassis1=0x3000000
-FanChassis2=0x3000003
-FanChassis3=0x3000004
+CPULoad=2
+CPUMemory=0
+CPUClock=1
+CPUTemp=3
+CPUPower=4
 
 ;GPU
-GPUID=0xe0001800
-GPUIns=0x0
-GPUTempEdge=0x1000000
-GPUTempCenter=0x100000a
-GPUFan=0x8000000
-GPUPower=0x5000009
-GPUCoreClock=0x6000000
-GPUMemoryClock=0x6000004
-GPULoad=0x7000000
-GPUMemory=0x8000001
-GPUFPS=0x8000032
+GPUTempEdge=5
+GPUFan=10
+GPUPower=6
+GPUCoreClock=7
+GPUMemoryClock=8
+GPULoad=9
+GPUMemory=11
 
 ;Colors
 LabelColor=250,250,250
