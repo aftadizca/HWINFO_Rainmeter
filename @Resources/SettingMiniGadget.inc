@@ -1,5 +1,5 @@
 [Variables]
-TextFont=Exo 2.0 Extra Light
+TextFont=Gruppo
 
 
 ;CPU
@@ -58,6 +58,7 @@ BarW=(#BackgroundW#-33)
 ValueX=(#BackgroundW#-15)
 RoundedCorner=0
 UnitSize=6
+UnitFace=Calibri Light
 
 [BarStyle]
 X=40
@@ -72,8 +73,8 @@ BarOrientation=Horizontal
 FontFace=#TextFont#
 FontColor=#LabelColor#
 FontSize=10
-FontWeight=200
-AntiAlias=0
+FontWeight=400
+AntiAlias=1
 NumOfDecimals=0
 X=40
 Y=3r
@@ -81,8 +82,8 @@ Y=3r
 [MeterValueTextStyle]
 FontFace=#TextFont#
 FontColor=#ValueColor#
-FontSize=8
-AntiAlias=0
+FontSize=10
+AntiAlias=1
 NumOfDecimals=0
 
 [MeterUnitTextStyle]
