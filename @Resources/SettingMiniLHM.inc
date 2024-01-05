@@ -1,13 +1,14 @@
 [Variables]
-TextFont=Exo 2.0 Extra Light
+TextFont=FantasqueSansM Nerd Font
 
 
 ;CPU
-CPULoad=2
+CPUId=/amdcpu/0
+CPULoad=/amdcpu/0/load/0
 CPUMemory=0
 CPUClock=1
-CPUTemp=3
-CPUPower=4
+CPUTemp=/amdcpu/0/temperature/2
+CPUPower=/amdcpu/0/power/0
 
 ;GPU
 GPUTempEdge=5
@@ -20,12 +21,12 @@ GPUMemory=11
 
 ;Colors
 LabelColor=250,250,250
-ValueColor=181, 255, 233
+ValueColor=255,255,255
 FrameColor=255,0,0,255
-Accent=206,171,177,255
+Accent=118,211,0,255
 Warn=255,0,0,255
-BackgroundAlpha=150
-BackgroundColor=68, 69, 69,#BackgroundAlpha#  
+BackgroundAlpha=200
+BackgroundColor=0,0,0,#BackgroundAlpha#
 BarBackColor=118,211,0,30
 G1=177, 255, 145,255
 G2=200, 195, 47,255
@@ -57,7 +58,6 @@ BackgroundW=250
 BarW=(#BackgroundW#-33)
 ValueX=(#BackgroundW#-15)
 RoundedCorner=0
-UnitSize=6
 
 [BarStyle]
 X=40
@@ -72,22 +72,22 @@ BarOrientation=Horizontal
 FontFace=#TextFont#
 FontColor=#LabelColor#
 FontSize=10
-FontWeight=200
-AntiAlias=0
+FontWeight=400
+AntiAlias=1
 NumOfDecimals=0
 X=40
-Y=3r
+Y=1r
 
 [MeterValueTextStyle]
 FontFace=#TextFont#
 FontColor=#ValueColor#
 FontSize=8
-AntiAlias=0
+AntiAlias=1
 NumOfDecimals=0
 
 [MeterUnitTextStyle]
 FontFace=#TextFont#
 FontColor=#Accent#
-FontSize=8
+FontSize=6
 AntiAlias=0
 NumOfDecimals=0
